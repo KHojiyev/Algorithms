@@ -1,5 +1,3 @@
-package deveper.checkspeed;
-
 import java.util.Scanner;
 
 public class CheckSpeed {

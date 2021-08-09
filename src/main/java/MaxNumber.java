@@ -1,4 +1,3 @@
-package developer.maxnumber;
 
 public class MaxNumber {
 

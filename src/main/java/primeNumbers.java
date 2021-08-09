@@ -1,4 +1,3 @@
-package developer.showprimenumbers;
 
 import java.util.Scanner;
 

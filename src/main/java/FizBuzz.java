@@ -1,4 +1,3 @@
-package develop.fizbuzz;
 
 import java.util.Scanner;
 

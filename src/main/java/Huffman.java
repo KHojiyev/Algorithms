@@ -1,4 +1,3 @@
-package developer.maxnumber;
 
 import java.util.ArrayList;
 import java.util.Collections;

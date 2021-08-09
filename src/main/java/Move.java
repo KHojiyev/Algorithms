@@ -1,4 +1,3 @@
-package developer.move;
 
 import java.util.Arrays;
 
