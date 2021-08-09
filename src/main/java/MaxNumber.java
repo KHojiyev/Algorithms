@@ -3,7 +3,9 @@ public class MaxNumber {
 
     public static void main(String[] args) {
 
-        int[] nums = new int[]{16, 25, 34, 43, 52, 36, 75, 66, 35, 457, 375, 43, 35, 74, 7, 75, 34, 45, 43, 57, 5, 543, 7, 5, 7};
+        int[] nums = new int[]{16, 25, 34, 43, 52, 36, 75, 66, 35,
+                457, 375, 43, 35, 74, 7, 75, 34, 45, 43, 57, 5, 543,
+                7, 5, 7};
 
         int result = getMaxNumber(nums);
 
