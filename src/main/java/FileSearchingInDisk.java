@@ -8,13 +8,13 @@ public class FileSearchingInDisk {
 
     public static void main(String[] args) {
         //  there is given file Path
-        File file = new File("D:\\");
+        File file = new File("C:\\");
         System.out.println("------------------------------------------");
 
         //  "key" is keyword for searching in the disk it searches by this word
         //  if there is any file contains this keyword So it will be added to "files" arraylist above in
         //  the final arraylist will give  as answer .
-        for (File key : Objects.requireNonNull(searchFile(file, "key"))) {
+        for (File key : Objects.requireNonNull(searchFile(file, "tajvid"))) {
             System.out.println(key.getAbsolutePath() + " <=> " + key.getName());
             System.out.println("----------------------------");
         }
