@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -28,18 +29,15 @@ public class JavaStreamAPI {
 */
 
 
-        //
-
-
-
-
-
-
-
-
-
-
-
+        // new Array list sorting in stream
+        Arrays.stream(new int[]{1, 2, 3, 6, 4, 23, 43, 56})
+                //        .map(x -> x)
+                .sorted()
+                .forEach(System.out::println);
+                /*
+                .average()
+                .ifPresent(System.out::println);
+                */
 
 
     }
