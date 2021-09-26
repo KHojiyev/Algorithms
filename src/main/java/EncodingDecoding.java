@@ -1,3 +1,4 @@
+import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 
 public class EncodingDecoding {
@@ -26,7 +27,7 @@ public class EncodingDecoding {
 
         // create an encoded String to decode
         String encoded
-                = "SmF2YSDQvdC1INGC0L7RgNC80L7Qt9C40YIhCg==";
+                = "dIh5MookeD8djeWHk09hh4TfyZoMMcgn3MjuPsD0muKmVTfHOwPByhmll94zdKPUospga2uMrXdG0M9J2i2aY1";
 
         // print encoded String
         System.out.println("Encoded String:\n"
